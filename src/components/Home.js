@@ -9,6 +9,11 @@ const Home = () => {
             <button className='bg-gray-200 rounded-3xl p-2 mr-52 px-5 text-black'>Access</button>
             </div>
             <p>ugugsugsgvgvyg</p>
+            <p>jqjqhh</p>
+            <p>ugugsugsgvgvyg</p>
+
+            <p>ugugsugsgvgvyg</p>
+
         </div>
     )
 }
