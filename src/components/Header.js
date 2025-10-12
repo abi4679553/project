@@ -1,4 +1,5 @@
 import React from 'react'
+import link from "../assests/link"
 
 const Header = () => {
   return (
@@ -8,13 +9,13 @@ const Header = () => {
             </div>
            <div className='flex text-center border bg-white justify-between p-4 '>
             <div className='flex p-4'>
-            <p className='text-3xl'>Cheat Sense</p>
+            <p className='text-3xl'><h1><i class="fa-regular fa-circle-check"></i></h1>Cheat Sense</p>
             </div>
             <div className='flex gap-12 mt-5'>
             <p>Higher Ed</p>
             <p>Professional Ed</p>
             <p>Resources</p>
-            <p>Resources</p>
+            <p>About Us</p>
            </div>
            <div className='flex gap-5 mt-3 '>
             <button className='bg-blue-500 rounded-full w-32 h-10 text-white'>Demo</button>
