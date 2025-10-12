@@ -1,7 +1,8 @@
 import React from 'react'
-import link from "../assests/link"
+import { SiTicktick } from "react-icons/si";
 
-const Header = () => {
+
+export const Header = () => {
   return (
     <div>  <div className=' bg-purple-700 p-5 text-white text-center flex justify-between items-center'>
             <p className='ml-64 font-bold '>ebook : preventing cheatbot cheating in online learning</p>
@@ -9,7 +10,7 @@ const Header = () => {
             </div>
            <div className='flex text-center border bg-white justify-between p-4 '>
             <div className='flex p-4'>
-            <p className='text-3xl'><h1><i class="fa-regular fa-circle-check"></i></h1>Cheat Sense</p>
+            <p className='text-3xl flex items-center gap-3'><SiTicktick />Cheat Sense</p>
             </div>
             <div className='flex gap-12 mt-5'>
             <p>Higher Ed</p>
@@ -25,4 +26,3 @@ const Header = () => {
   )
 }
 
-export default Header

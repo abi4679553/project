@@ -1,6 +1,10 @@
-import Header from "./components/Header";
+
+
+import Testing from './components/Testing';
 import Home from "./components/Home" ;
-import Testing from "./components/Testing";
+import { Header } from './components/Header'; 
+
+
 
 
 
@@ -9,9 +13,10 @@ import Testing from "./components/Testing";
 function App() {
   return (
     <div className="App">
-    <Header/>
+   <Header/>
     <Home />
     <Testing/>
+    
     </div>
   );
 }
