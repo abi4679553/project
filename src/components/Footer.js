@@ -59,7 +59,7 @@ const Footer = () => {
           <p>Partnership with AWS</p>
         </div>
         <div>
-          <p>.....</p>
+          <p>.....🔷....</p>
         </div>
         </div>
         
