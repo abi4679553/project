@@ -4,7 +4,7 @@ import { SiTicktick } from "react-icons/si";
 
 export const Header = () => {
   return (
-    <div>  <div className=' bg-purple-700 p-5 text-white text-center flex justify-between items-center'>
+    <div>  <div className='bg-purple-800 p-5 text-white text-center flex justify-between items-center'>
             <p className='ml-64 font-bold '>ebook : preventing cheatbot cheating in online learning</p>
             <button className='bg-gray-200 rounded-3xl p-2 mr-96 px-5 text-black'>Access</button>
             </div>
