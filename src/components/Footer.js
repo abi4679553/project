@@ -58,7 +58,11 @@ const Footer = () => {
           <p>Contact</p>
           <p>Partnership with AWS</p>
         </div>
-    </div>
+        <div>
+          <p>.....</p>
+        </div>
+        </div>
+        
     </div>
   )
 }
